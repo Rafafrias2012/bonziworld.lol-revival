@@ -207,7 +207,7 @@ class user {
           if(typeof msg !== "object" || typeof msg.text !== "string") return;
           //filter
           if(this.sanitize) msg.text = msg.text.replace(/</g, "&lt;").replace(/>/g, "&gt;");
-          if(filtertext(msg.text) && this.sanitize) msg.text = "RAPED AND ABUSED";
+          if(filtertext(msg.text) && this.sanitize) msg.text = "HEY EVERYONE LOOK AT ME I'M TRYING TO SCREW WITH THE SERVER LMAO";
 
           //talk
             if(!this.slowed){
